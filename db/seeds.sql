@@ -1,5 +1,5 @@
 USE `burgers_db`;
 
-INSERT INTO `burgers` (burger_name, devoured) VALUES ('Texas Haystack', false);
-INSERT INTO `burgers` (burger_name, devoured) VALUES ('Ahi Tuna', false);
-INSERT INTO `burgers` (burger_name, devoured) VALUES ('Black and Bleu', false);
+INSERT INTO `burgers` (burger_name, devoured, createdAt) VALUES ('Texas Haystack', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, createdAt) VALUES ('Ahi Tuna', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, createdAt) VALUES ('Black and Bleu', false, CURRENT_TIMESTAMP);
